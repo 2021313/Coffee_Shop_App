@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H/nYy33kNYU2HB/2ZfBxxOVP1PYypqVTsygakdVWbgoePjwouI9mh2Brw3uvhCAGss5wD7cLCdcTX6Sv1DHPog==",
+  "dgSpecHash": "+l5ebqgYHSEEJv3KHa1aDzyJIq6PSkL2KsPRuw7EGeb7KxXy8jaJJEwWZHfRj5oJa5C+76Bxqnse+DzVZ7j4og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\muzra\\source\\repos\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp.csproj",
+  "projectFilePath": "C:\\Users\\muzra\\Documents\\GitHub\\Coffee_Shop_App\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

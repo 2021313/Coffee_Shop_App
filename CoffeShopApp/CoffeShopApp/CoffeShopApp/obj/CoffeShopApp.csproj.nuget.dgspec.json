@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\muzra\\source\\repos\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp.csproj": {}
+    "C:\\Users\\muzra\\Documents\\GitHub\\Coffee_Shop_App\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\muzra\\source\\repos\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp.csproj": {
+    "C:\\Users\\muzra\\Documents\\GitHub\\Coffee_Shop_App\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muzra\\source\\repos\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp.csproj",
+        "projectUniqueName": "C:\\Users\\muzra\\Documents\\GitHub\\Coffee_Shop_App\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp.csproj",
         "projectName": "CoffeShopApp",
-        "projectPath": "C:\\Users\\muzra\\source\\repos\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp.csproj",
+        "projectPath": "C:\\Users\\muzra\\Documents\\GitHub\\Coffee_Shop_App\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp.csproj",
         "packagesPath": "C:\\Users\\muzra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muzra\\source\\repos\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp\\obj\\",
+        "outputPath": "C:\\Users\\muzra\\Documents\\GitHub\\Coffee_Shop_App\\CoffeShopApp\\CoffeShopApp\\CoffeShopApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

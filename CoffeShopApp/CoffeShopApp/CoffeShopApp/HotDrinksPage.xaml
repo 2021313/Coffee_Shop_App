@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoffeShopApp.HotDrinksPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#533A33"  VerticalOptions="CenterAndExpand">
+                <Label Text="Hot Drinks Menu" HorizontalOptions="CenterAndExpand" />
+            </Frame>
+            <Frame BackgroundColor="#EAB13D" >
+                <Label Text="Hot Coffee     $3.25" TextColor="White" />
+            </Frame>
+            <Frame BackgroundColor="#EAB13D" >
+                <Label Text="Blonde Cafe Latte      $3.75" TextColor="White" />
+            </Frame>
+            <Frame BackgroundColor="#EAB13D" >
+                <Label Text="Skinny Mocha       $4.00" TextColor="White" />
+            </Frame>
+            <Frame BackgroundColor="#EAB13D" >
+                <Label Text="Caramel Macchiato      $4.25" TextColor="White" />
+            </Frame>
+            <Frame BackgroundColor="#EAB13D" >
+                <Label Text="Irish Coffee       $4.25" TextColor="White" />
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

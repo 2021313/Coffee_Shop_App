@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoffeShopApp.EspressoDrinksPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#533A33"  VerticalOptions="CenterAndExpand">
+                <Label Text="Espresso Drinks Menu" HorizontalOptions="CenterAndExpand" />
+            </Frame>
+            <Frame BackgroundColor="#EAB13D" >
+                <Label Text="Single Shot        $0.75" TextColor="White" />
+            </Frame>
+            <Frame BackgroundColor="#EAB13D" >
+                <Label Text="Cafe Americano     $2.50" TextColor="White" />
+            </Frame>
+            <Frame BackgroundColor="#EAB13D" >
+                <Label Text="Cafe Latte     $3.00" TextColor="White" />
+            </Frame>
+            <Frame BackgroundColor="#EAB13D" >
+                <Label Text="Cappucino      $3.50" TextColor="White" />
+            </Frame>
+            <Frame BackgroundColor="#EAB13D" >
+                <Label Text="Cloud Macchiato        $3.50" TextColor="White" />
+            </Frame>
+            <Frame BackgroundColor="#EAB13D" >
+                <Label Text="Dolce Latte        $4.50" TextColor="White" />
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

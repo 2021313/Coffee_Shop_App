@@ -14,5 +14,25 @@ namespace CoffeShopApp
         {
             InitializeComponent();
         }
+
+        private async void espressoButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new EspressoDrinksPage());
+        }
+
+        private async void hotButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HotDrinksPage());
+        }
+
+        private async void coldButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ColdDrinksPage());
+        }
+
+        private async void bitesButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new QuickBitesPage());
+        }
     }
 }

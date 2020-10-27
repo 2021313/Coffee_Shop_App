@@ -4,21 +4,21 @@
              x:Class="CoffeShopApp.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Frame BackgroundColor="#533A33">
+            <Image Source="logo.png" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
         </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+        <Frame BackgroundColor="#EAB13D" >
+            <Button x:Name="espressoButton" Text="Espresso Drinks Menu" TextColor="White" FontSize="28" BackgroundColor="Transparent" Clicked="espressoButton_Clicked"/>
+        </Frame>
+        <Frame BackgroundColor="#EAB13D">
+            <Button x:Name="hotButton" Text="Hot Drinks Menu" TextColor="White" FontSize="28" BackgroundColor="Transparent" Clicked="hotButton_Clicked"/>
+        </Frame>
+        <Frame BackgroundColor="#EAB13D">
+            <Button x:Name="coldButton" Text="Cold Drinks Menu" TextColor="White" FontSize="28" BackgroundColor="Transparent" Clicked="coldButton_Clicked"/>
+        </Frame>
+        <Frame BackgroundColor="#EAB13D">
+            <Button x:Name="bitesButton" Text="Quick Bites Menu" TextColor="White" FontSize="28" BackgroundColor="Transparent" Clicked="bitesButton_Clicked"/>
+        </Frame>
     </StackLayout>
 
 </ContentPage>
