@@ -16,3 +16,4 @@ C:\Users\muzra\Documents\GitHub\Coffee_Shop_App\CoffeShopApp\CoffeShopApp\CoffeS
 C:\Users\muzra\Documents\GitHub\Coffee_Shop_App\CoffeShopApp\CoffeShopApp\CoffeShopApp\obj\Debug\netstandard2.0\ColdDrinksPage.xaml.g.cs
 C:\Users\muzra\Documents\GitHub\Coffee_Shop_App\CoffeShopApp\CoffeShopApp\CoffeShopApp\obj\Debug\netstandard2.0\HotDrinksPage.xaml.g.cs
 C:\Users\muzra\Documents\GitHub\Coffee_Shop_App\CoffeShopApp\CoffeShopApp\CoffeShopApp\obj\Debug\netstandard2.0\QuickBitesPage.xaml.g.cs
+C:\Users\muzra\Documents\GitHub\Coffee_Shop_App\CoffeShopApp\CoffeShopApp\CoffeShopApp\obj\Debug\netstandard2.0\MainTabbedPage.xaml.g.cs

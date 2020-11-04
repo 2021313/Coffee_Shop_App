@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoffeShopApp.MainTabbedPage">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="MENU">
+        <StackLayout>
+        <Frame BackgroundColor="#533A33">
+            <Image Source="logo.png" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+        </Frame>
+        <Frame BackgroundColor="#EAB13D" >
+            <Button x:Name="espressoButton" Text="Espresso Drinks Menu" TextColor="White" FontSize="28" BackgroundColor="Transparent" Clicked="espressoButton_Clicked"/>
+        </Frame>
+        <Frame BackgroundColor="#EAB13D">
+            <Button x:Name="hotButton" Text="Hot Drinks Menu" TextColor="White" FontSize="28" BackgroundColor="Transparent" Clicked="hotButton_Clicked"/>
+        </Frame>
+        <Frame BackgroundColor="#EAB13D">
+            <Button x:Name="coldButton" Text="Cold Drinks Menu" TextColor="White" FontSize="28" BackgroundColor="Transparent" Clicked="coldButton_Clicked"/>
+        </Frame>
+        <Frame BackgroundColor="#EAB13D">
+            <Button x:Name="bitesButton" Text="Quick Bites Menu" TextColor="White" FontSize="28" BackgroundColor="Transparent" Clicked="bitesButton_Clicked"/>
+        </Frame>
+     </StackLayout>
+  </ContentPage>
+    <ContentPage Title="ABOUT">
+        <StackLayout>
+            <Label Text="This is the about page" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="MAP">
+        <StackLayout >
+            <!--<WebView x:Name="mapWebView" Source="https://maps.apple.com/place?auid=18337340244138189750" VerticalOptions="FillAndExpand" />-->
+            <!--<WebView x:Name="mapWebView" Source="https://osm.org/go/uuVhgl9~V?m=" VerticalOptions="FillAndExpand" />-->
+            <WebView x:Name="mapWebView" Source="https://mobile.here.com/p/h-aHR0cHM6Ly9wbGFjZXMuYXBpLmhlcmUuY29tL3BsYWNlcy92MS9wbGFjZXMvNTU0OGx4eDUtMGI4Mzg3ODE0MDEyMDBlOGRkMGVhMjcyMTIzNWIyYTA7Y29udGV4dD1abXh2ZHkxcFpEMWtNMkpoWm1JMk9TMDJNakZrTFRWbFl6WXRZalV4TUMweE9UbGtPR00xTW1RNU9XTmZNVFl3TXpJMU1UWTNNakl5TTE4NE1qSXhYek0xTkRBbWNtRnVhejB3P2FwcF9pZD0zS0lRbHMyRFNLbE5XZmRhc3BCOSZhcHBfY29kZT1mMnZEbjFUVVlFVm40a1l0d0szN3l3?msg=Coffix" VerticalOptions="FillAndExpand" />
+
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
